@@ -1,0 +1,12 @@
+{
+    "name": "JAMES REID",
+    "description": "JAMES REID",
+    "symbol": "NFT",
+    "image": "https://i.imgur.com/WbRH9vK.jpeg",
+    "attributes": [
+        {
+            "trait_type": "TYPE",
+            "value": "VALUE"
+        }
+    ]
+}

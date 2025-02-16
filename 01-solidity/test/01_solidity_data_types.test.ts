@@ -10,9 +10,7 @@ describe("SolidityDataTypes", function () {
   async function deploy() {
     const [account1] = await hre.ethers.getSigners();
 
-    const SolidityDataTypes = await hre.ethers.getContractFactory(
-      "SolidityDataTypes"
-    );
+    const SolidityDataTypes = await hre.ethers.getContractFactory("SolidityDataTypes");
     const ctcSolidityDataTypes = await SolidityDataTypes.deploy();
 
     return { ctcSolidityDataTypes, account1 };
